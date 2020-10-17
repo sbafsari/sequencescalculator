@@ -24,8 +24,8 @@ while torf:
                 termge = value1 * (r**(wanted-1))
                 sumge1 = (value1*(1-(r**(wanted-1))))/(1-r)
                 sumge2 = (value1*((r**(wanted-1))-1))/(r-1)
-                suminfinity = value1/(1-r)
-                chose2 = int(input("For finding term type 5,for finding sum type 6 ,or finding sum of infinity sequence type 7"))
+                suminfinite = value1/(1-r)
+                chose2 = int(input("For finding term type 5,for finding sum type 6 ,or finding sum of infinite sequence type 7"))
                 if chose2 == 5:
                         print(termge)
                 elif chose2 == 6:
@@ -37,7 +37,7 @@ while torf:
                                 print("There is not sum!")
                 elif chose2 == 7:
                         if abs(r)<1:
-                                print(suminfinity)
+                                print(suminfinite)
                         else:
                                 print("There is not sum!")
                 else:
